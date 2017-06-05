@@ -38,7 +38,12 @@ public class QuickSort<E> extends AbstractSortingStrategy<E> {
 	 * portion
 	 */
 	private void qs(int first, int last) {
-//TODO
+		
+		if(first<last){
+			int partition= partitionList(first, last);
+			qs(first, partition-1);
+			qs(partition+1, last);
+		}
 	
 	}
 

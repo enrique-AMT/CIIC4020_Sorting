@@ -38,7 +38,8 @@ public class QuickSort<E> extends AbstractSortingStrategy<E> {
 	 * portion
 	 */
 	private void qs(int first, int last) {
-		// ADD CODE HERE 
+//TODO
+	
 	}
 
 	/**
